@@ -1,0 +1,25 @@
+.Synonyms .title {
+  font-weight: 500;
+  opacity: 0.7;
+  font-size: 16px;
+  margin-left: 17px;
+}
+
+.Synonyms ul {
+  list-style: none;
+  padding: 0;
+  display: inline;
+}
+
+.Synonyms li {
+  display: inline;
+  opacity: 0.4;
+}
+
+.Synonyms li::after {
+  content: ", ";
+}
+
+.Synonyms li:last-child::after {
+  content: "";
+}
