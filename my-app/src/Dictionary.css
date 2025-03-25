@@ -1,3 +1,7 @@
+.Dictionary {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .Dictionary section {
   background-color: white;
   padding: 30px;
